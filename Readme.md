@@ -96,8 +96,10 @@ SELECT * FROM report;
 .
 ├── main.py
 ├── vector_tuner.py
-├── setup.sql
-└── README.md
+├── sql/
+│   └── setup.sql
+├── README.md
+└── .gitignore
 ```
 
 ## What the key parameters mean
