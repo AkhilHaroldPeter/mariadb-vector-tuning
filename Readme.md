@@ -39,6 +39,14 @@ This project uses:
 - password: `root`
 - database: `vector_test`
 
+
+⚠️ Note:  
+The `user` and `password` values are placeholders. Replace them with your actual MariaDB credentials based on your local setup.
+
+Make sure to update them in:
+- `README.md` (if you copy commands)
+- `vector_tuner.py` → `DB_CONFIG`
+
 If your MariaDB runs on a different port or with different credentials, update `DB_CONFIG` in `vector_tuner.py`.
 
 ### 2) Create the database and tables
